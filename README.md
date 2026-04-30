@@ -12,7 +12,7 @@ The final blog post is blog.ipynb at the project root. To view it as a rendered 
 
 ```
 unbanked-world/
-├── blog.ipynb                  # Final blog post
+├── blog.html                   # Final blog post converted to .html
 ├── README.md                   # This file
 ├── LICENSE
 │
@@ -23,10 +23,9 @@ unbanked-world/
 │   │   └── world_bank_gdp_per_capita.csv  # Pulled from World Bank API
 │   ├── interim/                # Intermediate cleaning outputs
 │   │   └── worldbank_gdp_clean.csv
-│   └── processed/              # Final analysis-ready files
-│       ├── findex_clean.csv
+│   │   └── findex_clean.csv
+│   └── processed/              # Final analysis-ready files                        
 │       └── merged_dataset.csv  # Master file: 152 countries × 17 variables
-│
 ├── scripts/
 │   ├── data_cleaning.ipynb     # Step 1: fetch from API, clean, merge
 │   └── data_analysis.ipynb     # Step 2: build charts, run regressions
