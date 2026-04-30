@@ -6,7 +6,7 @@ Built for BEE2041 (Data Science in Economics) at the University of Exeter, May 2
 
 ## The blog
 
-The final blog post is blog.ipynb at the project root. To view it as a rendered HTML page, click here [View the blog post here]()
+The final blog post is blog.ipynb at the project root. To view it as a rendered HTML page, click here [View the blog post here](https://sophiamarathas.github.io/unbanked-world/blog.html)
 
 ## Project structure
 
