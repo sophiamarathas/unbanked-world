@@ -13,6 +13,7 @@ The final blog post is blog.ipynb at the project root. To view it as a rendered 
 ```
 unbanked-world/
 ├── blog.html                   # Final blog post converted to .html
+├── blog.ipynb                  # Final blog post as jupyter notebook
 ├── README.md                   # This file
 ├── LICENSE
 │
@@ -37,7 +38,6 @@ unbanked-world/
     ├── gdp_vs_account_ownership_scatter.html   # Figure 4
     ├── mobile_vs_traditional_by_region.html    # Figure 5
     ├── regression_table.html                   # Table 1
-    └── blog_post.html                          # Rendered blog 
 ```
 
 ## Data sources
@@ -58,7 +58,7 @@ The merged dataset covers 152 countries with 17 variables.
 Requires Python 3.10 or later. From the project root:
 
 ```bash
-pip install pandas numpy plotly statsmodels stargazer requests jupyter nbconvert
+pip install pandas numpy plotly statsmodels stargazer requests jupyter nbconvert matplotlib seaborn ipython
 ```
 
 ## How to replicate
